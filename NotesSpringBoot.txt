@@ -1,0 +1,43 @@
+
+/*
+Spring Boot Course(Alexis Notes);
+*/
+
+<!--Definitions.-->
+
+0-. IoC: Spring IoC container is the program that 
+    injects dependencies into an object and make it ready for our use.
+
+1-. Bean:  is an object that is instantiated, 
+    assembled, and otherwise managed by a Spring IoC container.
+
+2-. Rest: Representational State Transfer,
+    rest is an archiecture that is execute in HTTP.
+
+3-. RestFul: Is a web service that implements the Rest architecture
+
+4-. Dependency Injection: Dependency injection is a pattern
+   through which to implement IoC, where the control being inverted is the setting of object's dependencies.
+
+<!--Functionality.-->
+
+@Bean: Indicates that a method produces a bean to be managed by the Spring container. 
+
+@RestController: This bean is a combination of @Controller and @ResponseBody,
+ 		 This annotation is used to mark a class as request 
+		 handler for RESTful web services. 
+
+@RequestMapping: We use this type of bean when we want to create
+		 a route in our application.
+
+@Controller: This type of bean is used to a class
+ 		 to mark it as a request handler.
+@Service: Indicates that an annotated class is a “Service.
+
+@Component: Indicates that an annotated class is a “component”.
+
+@Autowired: We use this annotation for automatic dependency injection.
+
+@Qualifier: 
+
+@Test:
