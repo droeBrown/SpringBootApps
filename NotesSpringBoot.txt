@@ -19,6 +19,11 @@ Spring Boot Course(Alexis Notes);
 4-. Dependency Injection: Dependency injection is a pattern
    through which to implement IoC, where the control being inverted is the setting of object's dependencies.
 
+5-. JDBC: Its a class that spring provide to connect SQL to 
+    a data access provider.
+
+6-. JPA: Is for convert java objects in instructions for the DBMS 
+
 <!--Functionality.-->
 
 @Bean: Indicates that a method produces a bean to be managed by the Spring container. 
@@ -40,4 +45,4 @@ Spring Boot Course(Alexis Notes);
 
 @Qualifier: 
 
-@Test:
+@Test: This annotation indicate that the method is a test
