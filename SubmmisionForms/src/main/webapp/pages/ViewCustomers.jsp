@@ -7,12 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="addCustomers">
-<input type="text" name="cid"><br>
-<input type="text" name="cname"><br>
-<input type="text" name="cemail"><br>
-<input type="submit" value="Sent"><br>
-</form>
-
+<h1>View Customer Details</h1>
+<h2>Details as submitted as follows:</h2>
+<h3>Customer ID: ${cid }</h3>
+<h3>Customer Name: ${cname }</h3>
+<h3>Customer Email: ${cemail }</h3>
 </body>
 </html>
